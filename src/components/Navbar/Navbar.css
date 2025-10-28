@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbar{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: outfit;
+}
+
+.navbar .logo{
+    width: 150px;
+} 
+
+.navbar_menu{
+    display: flex;
+    list-style: none;
+    color: #49557e;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.navbar_right{
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar button{
+   font-size: 16px;
+    background-color: transparent;
+    color: #49557e;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.navbar button:hover{
+    background-color: rgb(236, 96, 71);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar .active{
+    color: tomato;
+    border-bottom: 2px solid tomato;
+    padding-bottom: 5px;
+}
+
+.navbar_search_icon{
+    position: relative;
+}
+
+.navbar_search_icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
